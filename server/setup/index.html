@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.7889b90d7738c86ed319.css">html{font-family:Poppins,sans-serif;background-color:#f6f7fb;-ms-text-size-adjust:100%}body,html{min-height:100vh}body{position:relative;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}html{box-sizing:border-box;font-family:sans-serif}*,:after,:before{box-sizing:inherit}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,p,pre{margin:0}button{background:transparent;padding:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}fieldset{margin:0;padding:0}ol,ul{margin:0}*,:after,:before{border:0 solid #dae1e7}img{border-style:solid}textarea{resize:vertical}img{max-width:100%;height:auto}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:inherit;opacity:.5}input::-ms-input-placeholder,textarea::-ms-input-placeholder{color:inherit;opacity:.5}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:inherit;opacity:.5}input::placeholder,textarea::placeholder{color:inherit;opacity:.5}[role=button],button{cursor:pointer}table{border-collapse:collapse}.markdown-content a,.markdown-content h1,.markdown-content h2,.markdown-content h3,.markdown-content h4,.markdown-content h5{color:#212121}</style><meta name="generator" content="Gatsby 2.3.3"/><title data-react-helmet="true">How do I set up a Ferdi server? | Ferdi Wiki</title><meta data-react-helmet="true" name="description" content="Get help with Ferdi."/><meta data-react-helmet="true" property="og:title" content="How do I set up a Ferdi server?"/><meta data-react-helmet="true" property="og:description" content="Get help with Ferdi."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@GetFerdi"/><meta data-react-helmet="true" name="twitter:title" content="How do I set up a Ferdi server?"/><meta data-react-helmet="true" name="twitter:description" content="Get help with Ferdi."/><link rel="shortcut icon" href="/icons/icon-48x48.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=b15be6ac4da9741da55b898747193f7770d0ef6c"/><style data-styled="kAjpRa gVlpOv dYRAbr ggZxcG hIXSpN feywkQ faZlgI imirMO hRGqe jhJbbJ iPfpc gSyRZm" data-styled-version="4.2.0">
+/* sc-component-id: navigation__Nav-zeafw2-0 */
+.kAjpRa{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:#ffffff;padding:1.5rem;box-shadow:0 2px 4px 0 rgba(0,0,0,0.10);}
+/* sc-component-id: navigation__LogoContainer-zeafw2-1 */
+.gVlpOv{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;margin-right:1.5rem;}
+/* sc-component-id: navigation__TextLogo-zeafw2-2 */
+.dYRAbr{font-weight:200;font-size:1.25rem;-webkit-letter-spacing:-0.05em;-moz-letter-spacing:-0.05em;-ms-letter-spacing:-0.05em;letter-spacing:-0.05em;-webkit-text-decoration:none;text-decoration:none;}
+/* sc-component-id: navigation__LinksContainer-zeafw2-5 */
+.ggZxcG{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:auto;}
+/* sc-component-id: navigation__LinksSpacingLeft-zeafw2-6 */
+.hIXSpN{font-size:.875rem;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}
+/* sc-component-id: navigation__NavLink-zeafw2-7 */
+.feywkQ{color:#8795a1;margin-right:1rem;-webkit-text-decoration:none;text-decoration:none;} .feywkQ:hover{color:#606f7b;}
+/* sc-component-id: item__ItemNoFlex-e11595-1 */
+.jhJbbJ{width:100%;margin-top:2.5rem;padding:2rem;box-shadow:0 15px 30px 0 rgba(0,0,0,0.11),0 5px 15px 0 rgba(0,0,0,0.08);background-color:#ffffff;}
+/* sc-component-id: layout__ContentOuterContainer-sc-55la5h-0 */
+.faZlgI{padding-top:4rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding-bottom:4rem;}
+/* sc-component-id: layout__ContentInnerContainer-sc-55la5h-1 */
+.imirMO{width:75%;} @media (min-width:992px){.imirMO{width:50%;}}
+/* sc-component-id: layout__SearchField-sc-55la5h-2 */
+.hRGqe{width:100%;height:3rem;padding:2rem;box-shadow:0 15px 30px 0 rgba(0,0,0,0.11),0 5px 15px 0 rgba(0,0,0,0.08);font-size:1.125rem;outline:none;}
+/* sc-component-id: article__ArticleHeading-sc-16372lw-0 */
+.iPfpc{font-size:1.875rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: article__ArticleContent-sc-16372lw-1 */
+.gSyRZm{margin-top:0.5rem;line-height:2;}</style><link as="script" rel="preload" href="/component---src-templates-article-template-js-9d3220fe4e6100f112c3.js"/><link as="script" rel="preload" href="/app-bad5121aa5f6a5ca18ab.js"/><link as="script" rel="preload" href="/2-e44101e6f2cf0f6fd4ef.js"/><link as="script" rel="preload" href="/1-63d0443f97a4378437ac.js"/><link as="script" rel="preload" href="/styles-b8492859847415a1a3d4.js"/><link as="script" rel="preload" href="/webpack-runtime-f85fac421509947480e3.js"/><link as="fetch" rel="preload" href="/static/d/455/path---server-setup-daf-173-yYJgEwG3L4EHrMPSZYXCywx7Qg0.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><nav class="navigation__Nav-zeafw2-0 kAjpRa"><div class="navigation__LogoContainer-zeafw2-1 gVlpOv"><a style="text-decoration:none;color:inherit;display:flex;align-items:center" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;width:2rem;margin-right:0.5rem"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEoklEQVQ4y1WVbVMTVxTHI7Yz7bdpbe1oa1vbd33TL9C+qHZgKq0jIgpSyoOEhAgYnidFReVBC9WpOIAkgg+kdCgopSQBNUGgCAEiJPuU3Xt39/57NyGxPTN3cm7u7m/OPed/ztqCwaDNsg8/e88GIMe2a5tK+FA8vlO7vSH5NleUwOayMvcqKnrjiW1HnIQPZp7j7+x94620Pzs7m3acTWXWwR7LX9kO7U+8ksfW50ysPgLm+oHJK8BEJ/BnLzDvA8KPdezEJO+mEHx3F5pTUvFtGnbg031ZWExYy4tFqLk4CIy36OxBE9XHWojhaybm3UbNvFOvGbccqt5n15j/OrC8QPSEvHYkA33z7V1nF5YrLQFTFxn8bZT6f6bsQTtlo60EI82EDbk1NtCg4bd6ld2sU1l3VZL22ClWQoCgZKF7bZlrWpFZsAkPNTgMKVgbYd4WgqFGDQMXOIwDb55X2Q1nkvU6kuisVIzLlQSRoKZvy+nrp4znbHRxCJnIUrB7LYQN1mm47eKrXsMtl4rec0l0VSbRU5NkV6uTrJPvW0tkOnARiG1J3mw1rQL4W3WWuSbPGeM5w8wwxdQAxW03j86t4o8Bggf9GjorFFyqVFhHhcI85TJrOCWzJ34CDZGDtnhix/nPQ2D0AtEfcaCvibCRJoJo2OApYakl7piQ4mZ2Pz9F0V4qo61MZu0VMrN/L+p3eZESie0aW2xN9D0b5pK4QY3BWl4ADlt7moYZuplaGZBu7Y30fnaCwH1GAoeht1UxepqBlyvCiG1jSQlMc31tRgxzNWCwxGb6BdN8DYouGdh6+TrizNnqoo7QY8rmpojZWE6x+Eyas1ld4O8A7l8kZjRiMErMbGSyYGLOT3HNzovBqxqcpFDE9JlOTWgqP58mzFUsmudLOPA5B8aios/qgAEXF61TxZ0mDd7LGoY6NNxwJeEpUdBWLKOpSEZDoQRPlYwut4LOer4/K6H8mICyfMFoqQbWVgWfjferc94LcJjOdcb6nCrrqU7iWlVKZxjs1PD7IIGfr189SdSfluAqFFFTIMJeIDL7KZEV5yX0ft6aVoFtcRL5KDJtoM+e7gBLtD2OJOuq4dGVKnj+t46MBacpHCdE1BVLcHDQOQ6sKhBY4dEEGx8l/IkXh1Ja3N6SR8d7AKudrA64Wq1w0Sqs5YyMe1x3GbvTreLcDyKcRRZMYJU8ytO5Cb3VCWxEpbFsp2yJ8+8vhYjZXU1wpUoxrA6wRNv2I9dZuQxFYpB5MazI7CfTkVmws/kJoyhPwl/TKlPp0w8y8yw1HAR5PXclCFwq11Lt5OGCbftJZq6TErw3VTbcr7KKfAFWzqxrWpEV5YqYmQSSWvS7LOvQ4Xey40tQ1nPDAc287QHqTkqstkDSXadEw35CNKuOC2bFccEo5qDCIwmz2QHMTKkW7NgubM9XX3+RvrK7/fWA3VEW9sc2pLEn4zqGuZw6eH7cZRR1pQSNlQy/XOKz8h5FdF16qNJnBzKw6311aVggEEj9fvL5vv99AjT24mMuqfNrq+JY+Kk8H16QF1ZXxPv8v3qG5cP/+QTkfHP0y5QfCoVs/wKm44+jd1ETQwAAAABJRU5ErkJggg==" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 50px) 100vw, 50px" srcset="/static/3b47fe6b7092232cd341e17e4e0be157/ce915/icon.png 13w,
+/static/3b47fe6b7092232cd341e17e4e0be157/8df5a/icon.png 25w,
+/static/3b47fe6b7092232cd341e17e4e0be157/48c6d/icon.png 50w,
+/static/3b47fe6b7092232cd341e17e4e0be157/e1fed/icon.png 75w,
+/static/3b47fe6b7092232cd341e17e4e0be157/94c83/icon.png 100w,
+/static/3b47fe6b7092232cd341e17e4e0be157/08283/icon.png 150w,
+/static/3b47fe6b7092232cd341e17e4e0be157/c2a4f/icon.png 1000w" src="/static/3b47fe6b7092232cd341e17e4e0be157/48c6d/icon.png" alt="" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div data-testid="navigation-text-logo" class="navigation__TextLogo-zeafw2-2 dYRAbr">Ferdi Wiki</div></a></div><div class="navigation__LinksContainer-zeafw2-5 ggZxcG"><div class="navigation__LinksSpacingLeft-zeafw2-6 hIXSpN"></div><a href="https://getferdi.com" data-testid="navigation-bts-link" class="navigation__NavLink-zeafw2-7 feywkQ">Visit getferdi.com</a></div></nav><div data-testid="layout-content-outer-container" class="layout__ContentOuterContainer-sc-55la5h-0 faZlgI"><div data-testid="layout-content-inner-container" class="layout__ContentInnerContainer-sc-55la5h-1 imirMO"><input type="text" placeholder="What can I help you with?" autofocus="" value="" data-testid="layout-search-field" class="layout__SearchField-sc-55la5h-2 hRGqe"/><main><div style="margin-top:2.5rem"><div class="item__ItemNoFlex-e11595-1 jhJbbJ"><div class="article__ArticleHeading-sc-16372lw-0 iPfpc"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:2.5rem;margin-right:1rem;color:#3d4852"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line></svg>How do I set up a Ferdi server?</div><div class="markdown-content article__ArticleContent-sc-16372lw-1 gSyRZm" data-testid="article-content"><p>Setting up a custom Ferdi server allows you to manage accounts yourself and distribute custom recipes to users of the server only. This is could be useful in an entreprise environment, where you want to store your employee's Ferdi accounts on your own servers and want to distribute company-internal services.</p>
+<h3>Manual setup</h3>
+<ol>
+<li>Clone this repository</li>
+<li>Install the <a href="https://adonisjs.com/">AdonisJS CLI</a></li>
+<li>Copy <code>.env.example</code> to <code>.env</code> and edit the <a href="https://github.com/getferdi/server#configuration">configuration</a> to your needs</li>
+<li>Run <code>npm install</code> to install local dependencies</li>
+<li>
+<p>Run the database migrations with</p>
+<pre><code class="language-js">adonis migration:run
+</code></pre>
+</li>
+<li>
+<p>Start the server with</p>
+<pre><code class="language-js">adonis serve --dev
+</code></pre>
+</li>
+</ol>
+<h3>Setting up with Docker</h3>
+<p>The easiest way to set up Ferdi server on your server is with Docker.</p>
+<p>The Docker image can be run as is, with the default sqlite database or you can modifying your ENV variables to use an external database (e.g. MySQL, MariaDB, Postgres, etc).
+After setting up the docker container we recommend you to set up an NGINX reverse proxy to access ferdi-server outside of your home network and protect it with an SSL certificate.</p>
+<ol>
+<li>
+<p>Pull the Docker image</p>
+<pre><code class="language-sh">docker pull getferdi/ferdi-server
+</code></pre>
+</li>
+<li>
+<p>Create a new Docker container with your desired configuration</p>
+<pre><code class="language-sh">docker create \
+  --name=ferdi-server \
+    -e NODE_ENV=development \
+    -e DB_CONNECTION=&#x3C;database> \
+    -e DB_HOST=&#x3C;yourdbhost> \
+    -e DB_PORT=&#x3C;yourdbPORT> \
+    -e DB_USER=&#x3C;yourdbuser> \
+    -e DB_PASSWORD=&#x3C;yourdbpass> \
+    -e DB_DATABASE=&#x3C;yourdbdatabase> \
+    -e IS_CREATION_ENABLED=true \
+    -e CONNECT_WITH_FRANZ=true \
+    -p &#x3C;port>:80 \
+    -v &#x3C;path to data>:/config \
+    -v &#x3C;path to database>:/usr/src/app/database \
+    -v &#x3C;path to recipes>:/usr/src/app/recipes \
+    --restart unless-stopped \
+    getferdi/ferdi-server
+</code></pre>
+<p>Alternatively, you can also use docker-compose v2 schemas</p>
+<pre><code class="language-sh">---
+version: "2"
+services:
+ferdi-server:
+    image: getferdi/ferdi-server
+    container_name: ferdi-server
+    environment:
+    - NODE_ENV=development
+    - DB_CONNECTION=&#x3C;database>
+    - DB_HOST=&#x3C;yourdbhost>
+    - DB_PORT=&#x3C;yourdbPORT>
+    - DB_USER=&#x3C;yourdbuser>
+    - DB_PASSWORD=&#x3C;yourdbpass>
+    - DB_DATABASE=&#x3C;yourdbdatabase>
+    - IS_CREATION_ENABLED=true/false
+    - CONNECT_WITH_FRANZ=true/false  
+    - IS_REGISTRATION_ENABLED=true/false  
+    - IS_DASHBOARD_ENABLED=true/false  
+    volumes:
+    - &#x3C;path to data>:/config
+    - &#x3C;path to database>:/usr/src/app/database
+    - &#x3C;path to recipes>:/usr/src/app/recipes
+    ports:
+    - &#x3C;port>:80
+    restart: unless-stopped
+</code></pre>
+</li>
+<li>
+<p>Optionally, you can now <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04#set-up-nginx-as-a-reverse-proxy-server">set up Nginx as a reverse proxy</a>.</p>
+</li>
+</ol>
+<p>For more information on configuring the Docker image, visit the Docker image repository at <a href="https://github.com/getferdi/server-docker">https://github.com/getferdi/server-docker</a>.</p></div><div class="markdown-content footer article__ArticleContent-sc-16372lw-1 gSyRZm" data-testid="article-footer"><div 
+  align="center" 
+  style="display:flex; justify-content: center;align-items:center;flex-direction:column;margin-top:2.5rem;">
+  <h4>Still have questions?</h4>
+  <a href="https://github.com/getferdi/ferdi/issues" style="display:flex;align-items:center;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+    <span style="margin-left: 0.2rem;">Create a new issue on GitHub</span>
+  </a>
+</div></div></div></div></main></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-article-template-js","jsonName":"server-setup-daf","path":"/server/setup"};window.dataPath="455/path---server-setup-daf-173-yYJgEwG3L4EHrMPSZYXCywx7Qg0";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-bad5121aa5f6a5ca18ab.js"],"component---src-templates-article-template-js":["/component---src-templates-article-template-js-9d3220fe4e6100f112c3.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-6e8adbc3c8cb6edaa1f1.js"],"component---src-pages-404-js":["/component---src-pages-404-js-eb4992ce35d02b2cbd46.js"],"component---src-pages-index-js":["/component---src-pages-index-js-8467fa23cf0d996ac804.js"],"pages-manifest":["/pages-manifest-5c69724911126fbe761b.js"]};/*]]>*/</script><script src="/webpack-runtime-f85fac421509947480e3.js" async=""></script><script src="/styles-b8492859847415a1a3d4.js" async=""></script><script src="/1-63d0443f97a4378437ac.js" async=""></script><script src="/2-e44101e6f2cf0f6fd4ef.js" async=""></script><script src="/app-bad5121aa5f6a5ca18ab.js" async=""></script><script src="/component---src-templates-article-template-js-9d3220fe4e6100f112c3.js" async=""></script></body></html>
