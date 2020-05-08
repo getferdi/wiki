@@ -52,7 +52,7 @@
     "serve": "gatsby serve",
     "test": "jest",
     "predeploy": "gatsby build --prefix-paths",
-    "deploy": "gh-pages -d public"
+    "deploy": "cp ./CNAME public/ && gh-pages -d public"
   },
   "repository": {
     "type": "git",
