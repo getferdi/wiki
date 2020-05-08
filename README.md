@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Ferdi Wiki" src="logo.png" />
+  <img alt="Ferdi Wiki" src="src/images/icon.png" />
 </p>
 <h1 align="center">
   Ferdi Wiki
