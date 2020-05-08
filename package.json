@@ -3,7 +3,7 @@
   "description": "Ferdi Wiki",
   "version": "1.0.0",
   "author": "The Ferdi Team <hello@getferdi.com>",
-  "homepage": "https://wiki.getferdi.com",
+  "homepage": "https://help.getferdi.com",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.3",
