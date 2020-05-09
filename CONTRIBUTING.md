@@ -2,7 +2,7 @@
 
 ## Pull Requests
 
-1. Fork the sprous repository
+1. Fork the (sprous?) repository
 2. Create a new branch for each feature or improvement
 3. Test your changes with `yarn test`. Please also add new tests if neccessary
 4. Send a pull request from each feature branch
