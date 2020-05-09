@@ -34,11 +34,7 @@ Ferdi Wiki is build on [sprous](https://github.com/vantezzen/sprous).
 3. **Test your page.**
     Start a local developement server using `yarn develop`
 4. **Deploy.**
-    Create a production-ready build using
-    ```bash
-    yarn build
-    ```
-    Please refer to [GatsbyJS' docs "Deploying and Hosting" section](https://www.gatsbyjs.org/docs/deploying-and-hosting/) if you run into any problems with GatsbyJS.
+    Deploys are automatically managed through Travis CI so you don't have to worry about re-deploying after making changes.
 
 ## Adding pages
 Ferdi Wiki's pages are located inside of subdirectories of `data/` - these subdirectories represent categories of your support page. 
