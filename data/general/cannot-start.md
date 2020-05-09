@@ -1,6 +1,6 @@
 ---
 type: "article"
-title: "I cannot start Ferdi anymore - waht should I do?"
+title: "I cannot start Ferdi anymore - what should I do?"
 path: "general/cannot-start"
 category: "general"
 ---
