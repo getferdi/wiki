@@ -1,6 +1,6 @@
 ---
 type: "article"
-title: "How do I delete my account"
+title: "How do I delete my account?"
 path: "account/delete-account"
 category: "account"
 ---

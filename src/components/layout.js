@@ -47,7 +47,6 @@ class Layout extends Component {
             <SearchField 
               type="text" 
               placeholder="What can I help you with?" 
-              autoFocus 
               onChange={ this.handleSearchUpdate } 
               value={ this.state.searchQuery } 
               data-testid="layout-search-field" />

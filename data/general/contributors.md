@@ -1,6 +1,6 @@
 ---
 type: "article"
-title: "Who is behing Ferdi? What company is developing Ferdi?"
+title: "Who is behind Ferdi? What company is developing Ferdi?"
 path: "general/contributors"
 category: "general"
 ---

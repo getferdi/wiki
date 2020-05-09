@@ -5,7 +5,8 @@ export const ArticleHeading = styled.div`
   ${tw`text-3xl flex items-center`}
 `
 export const ArticleContent = styled.div`
-  ${tw`mt-2 leading-loose`}
+  ${tw`mt-8 leading-loose`}
+  word-break: break-word;
 `
 export const ArticleHelpCircle = { 
   width: '2.5rem', 

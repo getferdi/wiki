@@ -28,7 +28,6 @@ export default function Template({ data }) {
       <div style={{ marginTop: '2.5rem' }}>
         <ItemNoFlex>
           <ArticleHeading>
-            <HelpCircle style={ ArticleHelpCircle } width="100%" height="100%" />
             {frontmatter.title}
           </ArticleHeading>
           <ArticleContent
