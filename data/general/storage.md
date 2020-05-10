@@ -7,7 +7,7 @@ category: "general"
 No, we cannot read your messages or service credentials and we do not store them on our servers.
 
 Here are some things we store:
-- Your Ferdi account credentials like email address and password (don't worry, you password is securely hashed)
+- Your Ferdi account credentials like email address and password (don't worry, your password is securely hashed)
 - Information about your services you've set up. This only includes data like "its an instance of WhatsApp with the name 'WhatsApp Work'" and no session data, messages, contacts or other personal information
 - Information about your Workspaces you've set up, this includes the name of the workspace and the services you have in it
 
