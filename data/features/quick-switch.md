@@ -4,7 +4,7 @@ title: "How does the Quick Switch work?"
 path: "features/quick-switch"
 category: "features"
 ---
-Ferdi's "Quick Switch" allows you to quickly switch between your services without having to search through the list in the sidebar. To activate quick siwtch, use the shortcut `CMD + S` or `CTRL + S` or click on "View" > "Open Quick Switch" in the menu bar.
+Ferdi's "Quick Switch" allows you to quickly switch between your services without having to search through the list in the sidebar. To activate quick siwtch, use the shortcut `CMD + S` or `CTRL + S` or click on "View" > "Open Quick Switch" in the [menu bar](/general/menubar).
 
 ![Quick Switch](https://imgur.com/fhB97vJ.png)
 
