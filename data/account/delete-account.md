@@ -6,4 +6,4 @@ category: "account"
 ---
 We are sorry to see you go.
 
-If you want to delete your account, please write us an E-Mail to [hello@getferdi.com](mailto:hello@getferdi.com). We'll work on an automatic delete feature in the future but for we'll have to do that manually.
+If you want to delete your account, please visit <https://api.getferdi.com/user/account> and click "Delete Account".
