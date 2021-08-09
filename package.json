@@ -45,15 +45,17 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "prebuild": "echo \"{\\\"date\\\": \\\"`date`\\\"}\" > src/components/buildInfo.json",
+    "build": "npx gatsby build",
+    "develop": "yarn run prebuild && npx gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Skip\"",
-    "predeploy": "gatsby build --prefix-paths",
+    "start": "yarn run develop",
+    "serve": "npx gatsby serve",
+    "clean": "npx gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "predeploy": "yarn run prebuild && npx gatsby build --prefix-paths",
     "deploy": "cp ./CNAME public/ && gh-pages -d public",
-    "ci-deploy": "gatsby build && cp ./CNAME public/ && gh-pages -d public -r https://$GH_TOKEN@github.com/getferdi/wiki.git"
+    "ci-deploy": "yarn run build && cp ./CNAME public/ && gh-pages -d public -r https://$GH_TOKEN@github.com/getferdi/wiki.git"
   },
   "repository": {
     "type": "git",
