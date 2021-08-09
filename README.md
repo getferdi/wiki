@@ -9,35 +9,42 @@ This repository hosts Ferdi's wiki.
 
 Visit <http://help.getferdi.com/> to get answers to your most asked questions.
 
-Ferdi Wiki is build on [sprous](https://github.com/vantezzen/sprous).
+Ferdi Wiki is built on [sprous](https://github.com/vantezzen/sprous).
 
 - [Quick start](#quick-start)
 - [Adding pages](#adding-pages)
   - [Creating categories](#creating-categories)
   - [Creating articles](#creating-articles)
-- [Deploy](#deploy)
 - [Contributing](#contributing)
-  - [Code of Conduct](#code-of-conduct)
+- [License](#license)
 
 ## Quick start
 
-1.  **Clone.**
+1. **Clone.**
 
     Clone this repository.
 
-2.  **Install dependencies.**
+2. **Install dependencies.**
 
     Navigate into Ferdi Wiki's directory and install all dependencies using
+
     ```bash
+    npm i -g yarn@1.22.11
     yarn install
     ```
+
 3. **Test your page.**
-    Start a local developement server using `yarn develop`
+
+    Start a local developement server using `npm develop`
+
 4. **Deploy.**
-    Deploys are automatically managed through Travis CI so you don't have to worry about re-deploying after making changes.
+
+    The website is hosted on GitHub pages via the `gh-pages` branch.
+    Running the command `yarn run deploy` will build the website and automatically push the `public` folder to the `gh-pages` branch.
 
 ## Adding pages
-Ferdi Wiki's pages are located inside of subdirectories of `data/` - these subdirectories represent categories of your support page. 
+
+Ferdi Wiki's pages are located inside of subdirectories of `data/` - these subdirectories represent categories of your support page.
 You can also create category-less page files inside of `data/` itself but we advice to only create pages inside of category folders as category-less pages can only be found by searching for them.
 
 When creating files and folders inside of `data/` we advice using hypen-case (`How can I reset by password` => `How-can-I-reset-my-password`) or camelCase (`How can I reset by password` => `HowCanIResetMyPassword`).
@@ -45,8 +52,10 @@ When creating files and folders inside of `data/` we advice using hypen-case (`H
 Please take a look at `data/` for example categories and articles
 
 ### Creating categories
-You can create a new category by creating a new folder inside of `data/` with the name of your category (e.g. `billing`). 
+
+You can create a new category by creating a new folder inside of `data/` with the name of your category (e.g. `billing`).
 You then need to create an `index.md` file inside this folder with the following content:
+
 ```md
 ---
 type: "category"
@@ -57,7 +66,9 @@ path: "category"
 ---
 This optional text will be shown on the category page
 ```
+
 This will define:
+
 - `type: "category"`: Define that this file will define the category information
 - `title`: Title/Name of this category
 - `description`: Short description of this category. This will be shown on the category list on the index page
@@ -66,9 +77,11 @@ This will define:
 - In the body of this file you can optionally add a markdown-formatted text that will be shown on the category page
 
 ### Creating articles
+
 You can create articles inside of category folders by creating a new markdown file. You can name this file anything you want but we advice to name your article files after the article title.
 
 Inside this file, add your article in this format:
+
 ```md
 ---
 type: "article"
@@ -78,7 +91,9 @@ category: "category"
 ---
 *Markdown-formatted* Article body
 ```
+
 This will define:
+
 - `type: "article"`: Define that this file will define an article
 - `title`: Title/Name of this article
 - `path`: Path/URL that the article page will be located at (e.g. `billing/credit-card` => `https://example.com/billing/credit-card`). This can be any path you want, the category name will *not* be automatically prepended, but we advice you to use the `category-path/article-path` format.
@@ -86,7 +101,9 @@ This will define:
 - The body of this markdown file will be the body of your article
 
 ## Contributing
+
 Thank you for your interest in contributing to Ferdi's wiki. Please take a look at [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for more information on how to contribute.
 
 ## License
-Licensed under the [MIT License](license.md)
+
+Licensed under the [MIT License](LICENSE)
